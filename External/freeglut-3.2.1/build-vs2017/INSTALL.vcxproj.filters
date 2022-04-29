@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\8ed2ed3cc727cde926b3cb0b46273418\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8E77C0F0-B99E-3B0D-9FB9-24BA57D44002}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

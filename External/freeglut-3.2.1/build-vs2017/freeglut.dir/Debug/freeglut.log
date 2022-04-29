@@ -1,0 +1,50 @@
+﻿  Building Custom Rule C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/CMakeLists.txt
+  fg_callbacks.c
+  fg_cursor.c
+  fg_display.c
+  fg_ext.c
+  fg_font_data.c
+  fg_gamemode.c
+  fg_geometry.c
+  fg_gl2.c
+  fg_init.c
+  fg_input_devices.c
+  fg_joystick.c
+  fg_main.c
+  fg_misc.c
+  fg_overlay.c
+  fg_spaceball.c
+  fg_state.c
+  fg_stroke_mono_roman.c
+  fg_stroke_roman.c
+  fg_structure.c
+  fg_teapot.c
+  Generating Code...
+  Compiling...
+  fg_videoresize.c
+  fg_window.c
+  fg_font.c
+  fg_menu.c
+  fg_cursor_mswin.c
+  fg_display_mswin.c
+  fg_ext_mswin.c
+  fg_gamemode_mswin.c
+  fg_init_mswin.c
+  fg_input_devices_mswin.c
+  fg_joystick_mswin.c
+  fg_main_mswin.c
+C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_main_mswin.c(47): warning C4312: 'type cast': conversion from 'unsigned int' to 'pGetTouchInputInfo' of greater size
+C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_main_mswin.c(48): warning C4312: 'type cast': conversion from 'unsigned int' to 'pCloseTouchInputHandle' of greater size
+C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_main_mswin.c(1508): warning C4312: 'type cast': conversion from 'unsigned int' to 'pGetTouchInputInfo' of greater size
+  fg_menu_mswin.c
+  fg_spaceball_mswin.c
+  fg_state_mswin.c
+  fg_structure_mswin.c
+  fg_window_mswin.c
+C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_window_mswin.c(85): warning C4312: 'type cast': conversion from 'unsigned int' to 'pRegisterTouchWindow' of greater size
+  fgSetupPixelFormat(): there is still some work to do here!
+C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_window_mswin.c(730): warning C4312: 'type cast': conversion from 'unsigned int' to 'pRegisterTouchWindow' of greater size
+  xparsegeometry_repl.c
+  Generating Code...
+     Creating library C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017/lib/Debug/freeglutd.lib and object C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017/lib/Debug/freeglutd.exp
+  freeglut.vcxproj -> C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\bin\Debug\freeglutd.dll

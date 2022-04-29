@@ -1,0 +1,5 @@
+C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017/CMakeFiles/freeglut.dir
+C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017/CMakeFiles/INSTALL.dir
+C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017/CMakeFiles/freeglut_static.dir
+C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017/CMakeFiles/ALL_BUILD.dir
+C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017/CMakeFiles/ZERO_CHECK.dir

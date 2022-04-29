@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{44962EAC-4B18-3816-9292-2AAF2DA09663}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>freeglut_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">freeglut_static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">freeglut_staticd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">freeglut_static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">freeglut_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">freeglut_static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">freeglut_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">freeglut_static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">freeglut_static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;FREEGLUT_STATIC;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1 -BC:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017 --check-stamp-file C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\FreeGLUTConfig.cmake.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeCCompiler.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeCXXCompiler.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeRCCompiler.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeSystem.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\config.h.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\freeglut.pc.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\freeglut.rc.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_version.h.in;C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1 -BC:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017 --check-stamp-file C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\FreeGLUTConfig.cmake.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeCCompiler.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeCXXCompiler.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeRCCompiler.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeSystem.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\config.h.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\freeglut.pc.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\freeglut.rc.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_version.h.in;C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1 -BC:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017 --check-stamp-file C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\FreeGLUTConfig.cmake.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeCCompiler.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeCXXCompiler.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeRCCompiler.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeSystem.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\config.h.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\freeglut.pc.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\freeglut.rc.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_version.h.in;C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1 -BC:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017 --check-stamp-file C:/Archives/Work/Asa/2020/2020_Practica3/external/freeglut-3.2.1/build-vs2017/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\FreeGLUTConfig.cmake.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeCCompiler.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeCXXCompiler.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeRCCompiler.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\3.16.5\CMakeSystem.cmake;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\config.h.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\freeglut.pc.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\freeglut.rc.in;C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_version.h.in;C:\Program Files\CMake\share\cmake-3.16\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckIncludeFiles.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include\GL\freeglut.h" />
+    <ClInclude Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include\GL\freeglut_ucall.h" />
+    <ClInclude Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include\GL\freeglut_ext.h" />
+    <ClInclude Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\include\GL\freeglut_std.h" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_callbacks.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_cursor.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_display.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_ext.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_font_data.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_gamemode.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_geometry.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_gl2.c" />
+    <ClInclude Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_gl2.h" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_init.c" />
+    <ClInclude Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_init.h" />
+    <ClInclude Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_internal.h" />
+    <ClInclude Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_callback_macros.h" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_input_devices.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_joystick.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_main.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_misc.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_overlay.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_spaceball.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_state.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_stroke_mono_roman.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_stroke_roman.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_structure.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_teapot.c" />
+    <ClInclude Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_teapot_data.h" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_videoresize.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_window.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_font.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\fg_menu.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_cursor_mswin.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_display_mswin.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_ext_mswin.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_gamemode_mswin.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_init_mswin.c" />
+    <ClInclude Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_internal_mswin.h" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_input_devices_mswin.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_joystick_mswin.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_main_mswin.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_menu_mswin.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_spaceball_mswin.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_state_mswin.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_structure_mswin.c" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\mswin\fg_window_mswin.c" />
+    <ResourceCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\freeglut.rc" />
+    <ClCompile Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\util\xparsegeometry_repl.c" />
+    <ClInclude Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\src\util\xparsegeometry_repl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Archives\Work\Asa\2020\2020_Practica3\external\freeglut-3.2.1\build-vs2017\ZERO_CHECK.vcxproj">
+      <Project>{95DD1F49-3DC2-3121-9C82-17BA9D1108AF}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
