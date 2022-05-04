@@ -23,4 +23,4 @@ Write to the mail: r.lozanoc93@gmail.com.
 
 # Miscellaneous
 
-This project needs Freeglut. This libraries are included in external but you can check [the freeglut project](http://freeglut.sourceforge.net/) for more information and credits.
+This project needs Freeglut library. This library and its source are included in external but you can check [the freeglut project](http://freeglut.sourceforge.net/) for more information and credits.
