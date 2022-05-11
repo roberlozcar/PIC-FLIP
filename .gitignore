@@ -21,4 +21,5 @@
 *.app
 
 /build*
-/.vs/
+/.vs
+/out

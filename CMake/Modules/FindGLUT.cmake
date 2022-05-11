@@ -42,18 +42,21 @@ if (WIN32)
     PATHS
     ${GLUT_ROOT_PATH}/include
     ${CMAKE_CURRENT_LIST_DIR}/../../External/freeglut-3.2.1/include
+    ${CMAKE_CURRENT_LIST_DIR}/../../External/freeglut-3.2.1/include/GL
     )
   find_library( GLUT_glut_LIBRARY_RELEASE NAMES glut glut32 freeglut
     PATHS
     ${OPENGL_LIBRARY_DIR}
     ${GLUT_ROOT_PATH}/Release
     ${CMAKE_CURRENT_LIST_DIR}/../../External/freeglut-3.2.1/build-vs2017/lib/Release
+    ${CMAKE_CURRENT_LIST_DIR}/../../External/freeglut-3.2.1/build/lib/Release
     )
   find_library( GLUT_glut_LIBRARY_DEBUG NAMES freeglutd
     PATHS
     ${OPENGL_LIBRARY_DIR}
     ${GLUT_ROOT_PATH}/Debug
     ${CMAKE_CURRENT_LIST_DIR}/../../External/freeglut-3.2.1/build-vs2017/lib/Debug
+    ${CMAKE_CURRENT_LIST_DIR}/../../External/freeglut-3.2.1/build/lib/Debug
     )
   mark_as_advanced(GLUT_glut_LIBRARY_RELEASE GLUT_glut_LIBRARY_DEBUG)
   select_library_configurations(GLUT_glut)

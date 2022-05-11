@@ -32,3 +32,4 @@ cross-woe
 native
 /build*
 /progs/
+/.vs

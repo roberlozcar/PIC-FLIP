@@ -1,10 +1,10 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.10)
 
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMake/Modules/")
+set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/CMake/Modules/")
 
-project(Practica3)
+project(PICFLIP)
 
-add_executable(Practica3
+add_executable(PICFLIP
     src/Fluid2.h
     src/Fluid2Exercise.cpp
     src/FluidVisualizer2.cpp
@@ -31,21 +31,21 @@ add_executable(Practica3
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)
 
-target_include_directories(Practica3
+target_include_directories(PICFLIP
     PUBLIC
     ${CMAKE_CURRENT_LIST_DIR}/src
     ${OPENGL_INCLUDE_DIR}
     ${GLUT_INCLUDE_DIR}
     )
 
-target_link_libraries(Practica3
+target_link_libraries(PICFLIP
     ${OPENGL_LIBRARIES}
     ${GLUT_LIBRARY}
     )
 
 if (WIN32)
     add_custom_command(
-        TARGET Practica3
+        TARGET PICFLIP
         POST_BUILD
         COMMAND ${CMAKE_COMMAND} ARGS -E copy_if_different
         "${PROJECT_SOURCE_DIR}/External/freeglut-3.2.1/build-vs2017/bin/$<CONFIG>/freeglut$<$<CONFIG:Debug>:d>.dll"
